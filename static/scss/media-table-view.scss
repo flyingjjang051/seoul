@@ -1,0 +1,101 @@
+@import "vars";
+@import "mixin";
+
+// sass list  (a.k.a js array)
+$colors: (rgb(228, 121, 0), rgb(26, 224, 0), rgb(5, 147, 212), rgb(156, 6, 216), rgb(206, 24, 39), rgb(138, 51, 1));
+
+$ratio: 1;
+$color-opacity: 0.5;
+* {
+  box-sizing: border-box;
+}
+img {
+}
+html {
+}
+body {
+  overflow: hidden;
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1c1c1b;
+  background-size: cover;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+#main {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  .oldAndNew {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    &.old {
+      li {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        &:nth-child(1) {
+          background-image: url("../images/media-table/view/hanriver_before.jpg");
+        }
+        &:nth-child(2) {
+          background-image: url("../images/media-table/view/ddp_before.jpg");
+        }
+        &:nth-child(3) {
+          background-image: url("../images/media-table/view/gangnam_before.jpg");
+        }
+        &:nth-child(4) {
+          background-image: url("../images/media-table/view/gwanghwa_before.jpg");
+        }
+        &:nth-child(5) {
+          background-image: url("../images/media-table/view/cheonggyecheon_before.jpg");
+        }
+      }
+    }
+    &.new {
+      li {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        &:nth-child(1) {
+          background-image: url("../images/media-table/view/hanriver_now.jpg");
+        }
+        &:nth-child(2) {
+          background-image: url("../images/media-table/view/ddp_now.jpg");
+        }
+        &:nth-child(3) {
+          background-image: url("../images/media-table/view/gangnam_now.jpg");
+        }
+        &:nth-child(4) {
+          background-image: url("../images/media-table/view/gwanghwa_now.jpg");
+        }
+        &:nth-child(5) {
+          background-image: url("../images/media-table/view/cheonggyecheon_now.jpg");
+        }
+      }
+    }
+  }
+}
+
+.black {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  z-index: 9999;
+  opacity: 0;
+}

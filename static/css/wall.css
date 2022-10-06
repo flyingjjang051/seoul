@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1c1c1b;
+  background-size: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.wrap {
+  display: flex;
+  position: relative;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+#main .contents {
+  margin: 5px;
+}
+#main .contents .list li {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+#main .contents .list li:nth-child(2) {
+  display: none;
+}
+#main .contents .list li video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.black {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  z-index: 9999;
+  opacity: 0;
+}

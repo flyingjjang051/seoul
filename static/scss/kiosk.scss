@@ -1,0 +1,233 @@
+@import "vars";
+@import "mixin";
+
+// sass list  (a.k.a js array)
+$colors: (rgb(228, 121, 0), rgb(26, 224, 0), rgb(5, 147, 212), rgb(156, 6, 216), rgb(206, 24, 39), rgb(138, 51, 1));
+
+$ratio: 1;
+$color-opacity: 0.5;
+* {
+  box-sizing: border-box;
+}
+img {
+}
+html {
+}
+body {
+  overflow: hidden;
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1c1c1b;
+  background-size: cover;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.wrap {
+  display: flex;
+  position: relative;
+  //padding: 300px 160px;
+}
+#header {
+  width: 100%;
+  padding: 70px 40px;
+  position: relative;
+  z-index: 2;
+  #logo {
+    img {
+      width: 100%;
+    }
+  }
+}
+#main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 200px 120px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .infoBox {
+    h2 {
+      margin-bottom: 60px;
+      img {
+      }
+    }
+    p {
+      color: #fff;
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 50px;
+      font-weight: 300;
+      strong {
+        margin-top: 20px;
+        font-weight: 700;
+        display: inline-block;
+      }
+    }
+  }
+  .stepBox {
+    transform: translateY(-170px);
+    .step {
+      font-size: 50px;
+      font-weight: 900;
+      color: rgba(255, 255, 255, 0.5);
+      display: flex;
+      justify-content: space-around;
+      text-transform: uppercase;
+      align-items: center;
+      span {
+        position: relative;
+      }
+      .point {
+        &:before {
+          content: "";
+          display: block;
+          width: 20px;
+          height: 20px;
+          background: #fff;
+          opacity: 0.5;
+        }
+        &:after {
+          content: "";
+          display: block;
+          width: 140px;
+          border-top: 8px dotted #fff;
+          position: absolute;
+          top: 50%;
+          left: calc(100% + 50px);
+          opacity: 0.5;
+          margin-top: -4px;
+        }
+      }
+      .step01 {
+        &:after {
+          content: "";
+          display: block;
+          width: 140px;
+          border-top: 8px dotted #fff;
+          position: absolute;
+          top: 50%;
+          left: calc(100% + 50px);
+          opacity: 0.5;
+          margin-top: -4px;
+        }
+      }
+    }
+
+    .keywordBox {
+      display: flex;
+      margin-top: 200px;
+      .txt {
+        font-size: 36px;
+        font-weight: 700;
+        background-color: #f00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        height: 180px;
+        padding: 0 40px;
+        margin: 0 15px;
+        background: linear-gradient(141deg, rgba(61, 210, 225, 1) 0%, rgba(232, 87, 251, 1) 100%);
+        &.txt01 {
+          margin-left: 0;
+        }
+        &.txt02 {
+          margin-right: 0;
+          padding-right: 20px;
+        }
+
+        .material-icons {
+          font-size: 64px;
+          transform: translateY(2px);
+        }
+      }
+      .mask {
+        font-size: 42px;
+        height: 180px;
+        width: 500px;
+        border: 20px solid transparent;
+        border-image: linear-gradient(141deg, rgba(61, 210, 225, 1) 0%, rgba(232, 87, 251, 1) 100%);
+        border-image-slice: 1;
+        li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .bgWrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    li {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.popup {
+  position: absolute;
+  width: 3400px;
+  height: 1600px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 99;
+  display: flex;
+  background-color: #fff;
+  //display: none;
+  .site,
+  .smap {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    .iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.btnPopupClose {
+  position: absolute;
+  right: -120px;
+  bottom: 0;
+  background: none;
+  border: none;
+  span {
+    font-size: 64px;
+    color: #fff;
+  }
+}
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  pointer-events: none;
+}
+.mCSB_container {
+  height: 100%;
+}

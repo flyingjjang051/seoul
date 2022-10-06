@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>서울의 파노라마를 기록하다</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=PT+Serif:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/splitting.css" />
+    <link rel="stylesheet" href="../css/fancybox.css" />
+    <link rel="stylesheet" href="../css/media-table.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/greensock/gsap.min.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="../js/lodash.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/fancybox.umd.js"></script>
+    <script src="../js/splitting.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/turn/turn.min.js"></script>
+    <script src="../js/media-table.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header id="header">
+        <div class="info">
+          <img src="../images/media-table/hand.png" alt="" />
+          <p>슬라이드사진을 선택하여 사진과 문서를 펼쳐보세요!</p>
+        </div>
+        <div class="titleBox">
+          <h1 id="logo">
+            <img src="../images/media-table/title.png" alt="" />
+          </h1>
+          <div class="desc">
+            수백 번의 봄, 여름, 가을, 겨울을 거듭한 서울의 세월. <br />
+            1949년 “서울특별시”로 승격되어 경기도에서 분리되었을 때부터, 세계를 선도하는 <br />
+            인프라와 문화를 갖춘 “동행ㆍ매력 특별시 서울”이 되기까지의 이야기는 마치 규모가 큰 파노라마를 보는 것과도 같습니다. <br />
+            주제를 선택하시면 서울의 스펙타클한 변화상을 보여주는 두 장의 사진과 대표 시정문서들을 통해 <br />
+            서울의 파노라마를 보다 가까이 마주하실 수 있습니다.
+          </div>
+          <h2 class="subTitle"><img src="../images/media-table/title02.png" alt="" /></h2>
+        </div>
+      </header>
+      <main id="main">
+        <div class="pdfListBox">
+          <div class="mask">
+            <ul class="pdfList swiper-wrapper"></ul>
+          </div>
+          <button class="btnNext btn">
+            <img src="../images/media-table/btnNext.png" alt="" />
+          </button>
+          <button class="btnPrev btn">
+            <img src="../images/media-table/btnPrev.png" alt="" />
+          </button>
+        </div>
+        <div class="panorama">
+          <div class="inner">
+            <div class="info"></div>
+            <div class="maskWrap">
+              <div class="mask">
+                <ul class="panoramaList swiper-wrapper">
+                  <!-- <li>
+                    <div class="imgBox">
+                      <div class="thumb"><img src="../images/media-table/thumb01.jpg" alt="" /></div>
+                      <div class="border"><img src="../images/media-table/border.png" alt="" /></div>
+                    </div>
+                    <div class="txtBox">
+                      <p class="title">한강</p>
+                      <p class="desc">수해지역에서 친수공간으로</p>
+                    </div>
+                  </li> -->
+                </ul>
+              </div>
+              <button class="btnNext btn">
+                <img src="../images/media-table/btnNext.png" alt="" />
+              </button>
+              <button class="btnPrev btn">
+                <img src="../images/media-table/btnPrev.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <button class="btnBack"><img src="../images/media-table/back.png" alt="" /></button>
+        </div>
+      </main>
+    </div>
+    <div class="popup">
+      <div class="book">
+        <!-- <div class="contents">
+          
+        </div> -->
+      </div>
+      <div class="popupInfo">
+        <p class="date"></p>
+        <div class="txtBox">
+          <p class="title">서울 도시계획</p>
+          <p class="department">서울 도시계획 기본계획</p>
+        </div>
+      </div>
+      <button class="btnPopupClose"><span class="material-icons"> close </span></button>
+    </div>
+    <div class="bg"></div>
+  </body>
+</html>

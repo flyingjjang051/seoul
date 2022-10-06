@@ -1,0 +1,179 @@
+{
+  "districtList": [
+    {
+      "title": "gangbuk",
+      "logo": "gangbuk.png",
+      "site": "https://www.gangbuk.go.kr/ebook/contents.do?key=10965&Dir=",
+      "name": "강북구",
+      "map": "https://smap.seoul.go.kr/#MjAyMjYyLjg4NzE5ODk0Mjg2LDU2MDAyNC44NDUzOTcyMDAyLDAsMC45NTk5MzEwODg1OTY4ODEzLDQ4MA==&encode=y&3D"
+    },
+    {
+      "title": "dobong",
+      "logo": "dobong.png",
+      "site": "https://www.dobong.go.kr/WDB_DEV/MC0101/MC0101List.asp",
+      "name": "도봉구",
+      "map": "https://smap.seoul.go.kr/#MjA0MTYzLjczMzc1NjQwMzQsNTYzMjQzLjI3NzMxMzkxMzIsMCwwLjk1OTkzMTA4ODU5Njg4MTMsNDgw&encode=y&3D"
+    },
+    {
+      "title": "nowon",
+      "logo": "nowon.png",
+      "site": "http://ebook.nowon.kr/home/index.php?",
+      "name": "노원구",
+      "map": "https://smap.seoul.go.kr/#MjA0OTg1LjgxNzAxMjM2NzY4LDU2MTY0My45MzA5NjQ4NTcxLDAsMC45NTk5MzEwODg1OTY4ODEzLDQ4MA==&encode=y&3D"
+    },
+    {
+      "title": "jungrang",
+      "logo": "jungrang.png",
+      "site": "https://www.jungnang.go.kr/portal/main.do",
+      "name": "중랑구",
+      "map": "https://smap.seoul.go.kr/#MjA4MTc3LjczMzI1MTc1NjgsNTU2MzE1LjUzOTMxNDUyNTMsMCwwLjk1OTkzMTA4ODU5Njg4MTMsMzA1Ljc2&encode=y&3D"
+    },
+    {
+      "title": "gangdong",
+      "logo": "gangdong.png",
+      "site": "http://news.gangdong.go.kr/enewspaper/mainview.php",
+      "name": "강동구",
+      "map": "https://smap.seoul.go.kr/#MjEwOTQyLjc3Mzc1Mzk4NjI2LDU0Nzg2MS4zMDA2NDc4Mzk2LDAsMC45NTk5MzEwODg1OTY4ODEzLDQ4MA==&encode=y&3D"
+    },
+    {
+      "title": "songpa",
+      "logo": "songpa.png",
+      "site": "selectBbsNttList.do?bbsNo=152&key=3769&",
+      "name": "송파구",
+      "map": "https://smap.seoul.go.kr/#MjA5MzMyLjQ3MTkzNTYyNTU0LDU0NjA3OC4zMTQ0MTM5OTk4LDAuMDIwODk5MjU4MjA3NTgxNjU0LDAuOTYzMjQ4NTA0MjgxNzcwMiw1NTYuOTM5NQ==&enco"
+    },
+    {
+      "title": "gangnam",
+      "logo": "gangnam.png",
+      "site": "https://www.gangnam.go.kr/gangnamlife/index.html",
+      "name": "강남구",
+      "map": "https://smap.seoul.go.kr/#MjA0MjAxLjQ3NDgwMzE5MDY4LDU0NjQzMi42MzkwOTg3OTQzLDAsMC45NTk5MzEwODg1OTY4ODEzLDQ4MA==&encode=y&3D"
+    },
+    {
+      "title": "gwanak",
+      "logo": "gwanak.png",
+      "site": "https://www.gwanak.go.kr/site/enews/news/news_main.do",
+      "name": "관악구",
+      "map": "https://smap.seoul.go.kr/#MTk1NzExLjEzMjgwOTUyNzIsNTQyMDg3LjMzMjgxNDcxMywwLDAuOTU5OTMxMDg4NTk2ODgxMyw0ODA=&encode=y&3D"
+    },
+    {
+      "title": "geumcheon",
+      "logo": "geumcheon.png",
+      "site": "https://www.geumcheon.go.kr/gcb/selectBbsNttList.do?bbsNo=104&key=1842",
+      "name": "금천구",
+      "map": "https://smap.seoul.go.kr/#MTkwNzU2Ljk1NDMxMTY5MjYyLDUzOTcyOC43MTczNzA3Mjc4LDAsMC45NTk5MzEwODg1OTY4ODEzLDQ4MA==&encode=y&3D"
+    },
+    {
+      "title": "guro",
+      "logo": "guro.png",
+      "site": "https://www.guro.go.kr/www/selectBbsNttList.do?bbsNo=989&key=1797&",
+      "name": "구로구",
+      "map": "https://smap.seoul.go.kr/#MTkwMDU3LjQ4MzIwMTQyOSw1NDQwMTQuNDMzOTU2MDczNywwLDAuOTU5OTMxMDg4NTk2ODgxMyw0ODA=&encode=y&3D"
+    },
+    {
+      "title": "yangcheon",
+      "logo": "yangcheon.png",
+      "site": "https://www.yangcheon.go.kr/site/yangcheon/ex/webbook/WebbookGList.do",
+      "name": "양천구",
+      "map": "https://smap.seoul.go.kr/#MTg4MTU4LjMxNDA0OTY4NjU0LDU0NjQwNy44Njg0NDMxNTU1LDAuMDIwODk5MjU4MjA3NTgxNjU0LDAuOTYzMjQ4NTA0MjgxNzcwMiwzODkuODU3NjU=&encode=y&3D"
+    },
+    {
+      "title": "gangseo",
+      "logo": "gangseo.png",
+      "site": "https://www.gangseo.seoul.kr/gs040403",
+      "name": "강서구",
+      "map": "https://smap.seoul.go.kr/#MTg2NzE1Ljk4ODc2NzAwODc2LDU1MDE3NS4xMjcxMjgxNjE4LDAsMC45NTk5MzEwODg1OTY4ODEzLDQ4MA==&encode=y&3"
+    },
+    {
+      "title": "mapo",
+      "logo": "mapo.png",
+      "site": "https://www.mapo.go.kr/site/main/home",
+      "name": "마포구",
+      "map": "https://www.mapo.go.kr/site/main/prMadang/home"
+    },
+    {
+      "title": "eunpyoung",
+      "logo": "eunpyoung.png",
+      "site": "https://www.ep.go.kr/www/selectBbsNttList.do?bbsNo=51&key=766",
+      "name": "은평구",
+      "map": "https://smap.seoul.go.kr/#MTkzNzQ3LjEzNjAxNjkxODUyLDU1NTkyMS4wNDI2NTY5MjI2LDAsMC45NTk5MzEwODg1OTY4ODEzLDMwNS43Ng==&encode=y&3D"
+    },
+    {
+      "title": "jongro",
+      "logo": "jongro.png",
+      "site": "https://www.jongno.go.kr/portal/bbs/selectBoardList.do?bbsId=BBSMSTR_000000001021&menuId=1883&menuNo=1883",
+      "name": "종로구",
+      "map": "https://smap.seoul.go.kr/#MTk4MTM5LjI2NzMwOTc2Njg0LDU1MjU4OC4wNDI1NzE1NjQxLDAsMC45NTk5MzEwODg1OTY4ODEzLDMwNS43Ng==&encode=y&3D"
+    },
+    {
+      "title": "seongbuk",
+      "logo": "seongbuk.png",
+      "site": "https://www.sb.go.kr/PageLink.do",
+      "name": "성북구",
+      "map": "https://smap.seoul.go.kr/#MjAxNDI3LjQxMjAwMDA2MTM2LDU1NDQzOS44MTI3NzI2MDAxLDAsMC45NTk5MzEwODg1OTY4ODEzLDMwNS43Ng==&encode=y&3D"
+    },
+    {
+      "title": "dongdaemun",
+      "logo": "dongdaemun.png",
+      "site": "https://www.ddm.go.kr/www/selectBbsNttList.do?bbsNo=54&key=241",
+      "name": "동대문구",
+      "map": "https://smap.seoul.go.kr/#MjAzNTA0Ljk4ODM3Nzg5OTkyLDU1Mjc4Mi42Mjg1MDM2MDEyLDAsMC45NTk5MzEwODg1OTY4ODEzLDQ4MA==&encode=y&3D"
+    },
+    {
+      "title": "gwangjin",
+      "logo": "gwangjin.png",
+      "site": "http://gwangjin.newstool.co.kr/list.php?eid=8730",
+      "name": "광진구",
+      "map": "https://smap.seoul.go.kr/#MjA3MjgyLjU0NjgzMzU5NjcsNTQ4Nzk5LjUwMzY5NjQ3NjMsMCwwLjk1OTkzMTA4ODU5Njg4MTMsNDgw&encode=y&3D"
+    },
+    {
+      "title": "seocho",
+      "logo": "seocho.png",
+      "site": "http://seocho.newstool.co.kr/list.php?eid=8727",
+      "name": "서초구",
+      "map": "https://smap.seoul.go.kr/#MjAyODg1LjEzMjY1MTA0NjQsNTQyNjg3LjQ0NzU5MTQ3MDQsMCwwLjk1OTkzMTA4ODU5Njg4MTMsNDgw&encode=y&3D"
+    },
+    {
+      "title": "dongjak",
+      "logo": "dongjak.png",
+      "site": "https://www.dongjak.go.kr/portal/bbs/B0000771/list.do?pageUnitTemp=8&menuNo=200109",
+      "name": "동작구",
+      "map": "https://smap.seoul.go.kr/#MTk0NjUzLjY5OTg0Njc3MjgsNTQ1ODk0LjI3MzUyNDE5MzEsMCwwLjk1OTkzMTA4ODU5Njg4MTMsNDgw&encode=y&3D"
+    },
+    {
+      "title": "youngdeungpo",
+      "logo": "youngdeungpo.png",
+      "site": "https://www.ydp.go.kr/www/selectBbsNttList.do?bbsNo=333&key=2859&",
+      "name": "영등포구",
+      "map": "https://smap.seoul.go.kr/#MTkwODEwLjA0OTY0MDI3NDUsNTQ3NDQ5LjUyOTUwNjUwMjcsMC4wMjA4OTkyNTgyMDc1ODE2NTQsMC45NjMyNDg1MDQyODE3NzAyLDM4OS44NTc2NQ==&encode=y&3D"
+    },
+    {
+      "title": "seodaemun",
+      "logo": "seodaemun.png",
+      "site": "https://www.sdm.go.kr/news/media/madang.do",
+      "name": "서대문구",
+      "map": "https://smap.seoul.go.kr/#MTk0NDE5Ljk3NjY1OTM2NjcsNTUzMzA1LjA5MjI3ODY2OTQsMCwwLjk1OTkzMTA4ODU5Njg4MTMsNDgw&encode=y&3D"
+    },
+    {
+      "title": "jung",
+      "logo": "jung.png",
+      "site": "http://www.junggu.seoul.kr/content.do?cmsid=14391",
+      "name": "중구",
+      "map": "https://smap.seoul.go.kr/#MTk5NzkwLjM4ODQ1NjIyMzEsNTUxNTk2LjA4NzQzMDM3OTYsMCwwLjk1OTkzMTA4ODU5Njg4MTMsMzA1Ljc2&encode=y&3D"
+    },
+    {
+      "title": "seongdong",
+      "logo": "seongdong.png",
+      "site": "https://www.sd.go.kr/pr/selectBbsNttList.do?bbsNo=242&key=2060&",
+      "name": "성동구",
+      "map": "https://smap.seoul.go.kr/#MjAzMjU2LjAzMDY2MTIzNjM4LDU1MTU1My45MDkxOTE4NzY5LDAsMC45NTk5MzEwODg1OTY4ODEzLDMwNS43Ng==&encode=y&3D"
+    },
+    {
+      "title": "yongsan",
+      "logo": "yongsan.png",
+      "site": "https://www.yongsan.go.kr/portal/bbs/B0000049/list.do?menuNo=200850",
+      "name": "용산구",
+      "map": "https://smap.seoul.go.kr/#MTk5MTIyLjg1MzEyMzY5LDU0ODA5NC4yOTE2ODcwMTcsMCwwLjk1OTkzMTA4ODU5Njg4MTMsMzA1Ljc2&encode=y&3D"
+    }
+  ]
+}

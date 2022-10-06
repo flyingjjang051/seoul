@@ -1,0 +1,77 @@
+@import "vars";
+@import "mixin";
+
+// sass list  (a.k.a js array)
+$colors: (rgb(228, 121, 0), rgb(26, 224, 0), rgb(5, 147, 212), rgb(156, 6, 216), rgb(206, 24, 39), rgb(138, 51, 1));
+
+$ratio: 1;
+$color-opacity: 0.5;
+* {
+  box-sizing: border-box;
+}
+img {
+}
+html {
+}
+body {
+  overflow: hidden;
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1c1c1b;
+  background-size: cover;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.wrap {
+  display: flex;
+  position: relative;
+  //padding: 300px 160px;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  .contents {
+    margin: 5px;
+    .list {
+      li {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        &:nth-child(2) {
+          display: none;
+        }
+        video {
+          width: 100vw;
+          height: 100vh;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+.black {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  z-index: 9999;
+  opacity: 0;
+}

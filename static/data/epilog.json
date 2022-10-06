@@ -1,0 +1,18 @@
+{
+  "museumList": [
+    { "title": "디지털기록문화관", "thumb": "digital.png", "site": "../html/epilog/서울기록문화관_연혁.html", "posX": 2250, "posY": 1150 },
+    { "title": "국립민속박물관", "thumb": "minsok.png", "site": "https://nfm.go.kr/home/index.do", "posX": 2050, "posY": 30 },
+    { "title": "국립현대미술관", "thumb": "hyundai.png", "site": "https://www.mmca.go.kr/", "posX": 2280, "posY": 150 },
+    { "title": "서울공예박물관", "thumb": "gongye.png", "site": "https://craftmuseum.seoul.go.kr/main", "posX": 2520, "posY": 350 },
+
+    { "title": "국립고궁박물관", "thumb": "gogung.png", "site": "https://www.gogung.go.kr/main.do", "posX": 1840, "posY": 300 },
+    { "title": "대한민국역사박물관", "thumb": "yeocksa.png", "site": "../html/epilog/대한민국역사박물관.html", "posX": 2080, "posY": 645 },
+    { "title": "세종문화회관", "thumb": "sejong.png", "site": "../html/epilog/세종문화회관.html", "posX": 1810, "posY": 770 },
+    { "title": "서울도시건축전시관", "thumb": "seoul-dosi.png", "site": "../html/epilog/서울도시건축전시관.html", "posX": 1870, "posY": 1330 },
+    { "title": "서울시립미술관", "thumb": "sirib-misul.png", "site": "https://sema.seoul.go.kr/", "posX": 1715, "posY": 1675 },
+    { "title": "서울역사박물관", "thumb": "seoul-yeocksa.png", "site": "../html/epilog/서울역사박물관.html", "posX": 1370, "posY": 965 },
+
+    { "title": "대한민국임시정부기념관", "thumb": "imsi-jungbu.png", "site": "../html/epilog/국립대한민국임시정부기념관.html", "posX": 50, "posY": 320 },
+    { "title": "서대문역형무소역사관", "thumb": "seodaemun.png", "site": "https://sphh.sscmc.or.kr/", "posX": 235, "posY": 640 }
+  ]
+}

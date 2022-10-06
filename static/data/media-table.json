@@ -1,0 +1,41 @@
+{
+  "imageFolder": "images/",
+  "panoramaList": [
+    {
+      "thumb": "한강.jpg",
+      "title": "한강",
+      "desc": "한강의 기적을 넘어",
+      "imgFolder": "hangang",
+      "json": "01.json"
+    },
+
+    {
+      "thumb": "DDP.jpg",
+      "title": "DDP",
+      "desc": "세계 패션의 중심으로",
+      "imgFolder": "ddp",
+      "json": "02.json"
+    },
+    {
+      "thumb": "강남.jpg",
+      "title": "강남",
+      "desc": "가장 화려한 밤 충경",
+      "imgFolder": "gangnam",
+      "json": "01.json"
+    },
+    {
+      "thumb": "광화문.jpg",
+      "title": "광화문광장",
+      "desc": "육조거리에서 대한민국 중심으로",
+      "imgFolder": "gwanghwamun",
+      "json": "04.json"
+    },
+    {
+      "thumb": "청계천.jpg",
+      "title": "청계천",
+      "desc": "수해지역에서 친수공간으로",
+      "imgFolder": "chunggyecheon",
+      "json": "01.json"
+    }
+  ]
+}

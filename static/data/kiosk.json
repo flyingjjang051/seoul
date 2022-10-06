@@ -1,0 +1,29 @@
+{
+  "districtList": [
+    { "title": "gangbuk", "logo": "gangbuk.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "dobong", "logo": "dobong.png", "site": "https://m.dobong.go.kr/" },
+    { "title": "nowon", "logo": "nowon.png", "site": "https://www.nowon.kr/" },
+    { "title": "jungrang", "logo": "jungrang.png", "site": "https://www.jungnang.go.kr/" },
+    { "title": "gangdong", "logo": "gangdong.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "songpa", "logo": "songpa.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "gangnam", "logo": "gangnam.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "gwanak", "logo": "gwanak.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "geumcheon", "logo": "geumcheon.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "guro", "logo": "guro.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "yangcheon", "logo": "yangcheon.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "gangseo", "logo": "gangseo.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "mapo", "logo": "mapo.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "eunpyoung", "logo": "eunpyoung.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "jongro", "logo": "jongro.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "seongbuk", "logo": "seongbuk.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "dongdaemun", "logo": "dongdaemun.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "gwangjin", "logo": "gwangjin.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "seocho", "logo": "seocho.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "dongjak", "logo": "dongjak.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "youngdeungpo", "logo": "youngdeungpo.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "seodaemun", "logo": "seodaemun.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "jung", "logo": "jung.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "seongdong", "logo": "seongdong.png", "site": "https://www.gangbuk.go.kr/" },
+    { "title": "yongsan", "logo": "yongsan.png", "site": "https://www.gangbuk.go.kr/" }
+  ]
+}

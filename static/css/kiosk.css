@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1c1c1b;
+  background-size: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.wrap {
+  display: flex;
+  position: relative;
+}
+
+#header {
+  width: 100%;
+  padding: 70px 40px;
+  position: relative;
+  z-index: 2;
+}
+#header #logo img {
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 200px 120px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .infoBox h2 {
+  margin-bottom: 60px;
+}
+#main .infoBox p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+#main .infoBox p strong {
+  margin-top: 20px;
+  font-weight: 700;
+  display: inline-block;
+}
+#main .stepBox {
+  transform: translateY(-170px);
+}
+#main .stepBox .step {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  align-items: center;
+}
+#main .stepBox .step span {
+  position: relative;
+}
+#main .stepBox .step .point:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  opacity: 0.5;
+}
+#main .stepBox .step .point:after {
+  content: "";
+  display: block;
+  width: 140px;
+  border-top: 8px dotted #fff;
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 50px);
+  opacity: 0.5;
+  margin-top: -4px;
+}
+#main .stepBox .step .step01:after {
+  content: "";
+  display: block;
+  width: 140px;
+  border-top: 8px dotted #fff;
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 50px);
+  opacity: 0.5;
+  margin-top: -4px;
+}
+#main .stepBox .keywordBox {
+  display: flex;
+  margin-top: 200px;
+}
+#main .stepBox .keywordBox .txt {
+  font-size: 36px;
+  font-weight: 700;
+  background-color: #f00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  height: 180px;
+  padding: 0 40px;
+  margin: 0 15px;
+  background: linear-gradient(141deg, rgb(61, 210, 225) 0%, rgb(232, 87, 251) 100%);
+}
+#main .stepBox .keywordBox .txt.txt01 {
+  margin-left: 0;
+}
+#main .stepBox .keywordBox .txt.txt02 {
+  margin-right: 0;
+  padding-right: 20px;
+}
+#main .stepBox .keywordBox .txt .material-icons {
+  font-size: 64px;
+  transform: translateY(2px);
+}
+#main .stepBox .keywordBox .mask {
+  font-size: 42px;
+  height: 180px;
+  width: 500px;
+  border: 20px solid transparent;
+  border-image: linear-gradient(141deg, rgb(61, 210, 225) 0%, rgb(232, 87, 251) 100%);
+  border-image-slice: 1;
+}
+#main .stepBox .keywordBox .mask li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main .bgWrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#main .bgWrapper li {
+  width: 100%;
+  height: 100%;
+}
+#main .bgWrapper li img {
+  width: 100%;
+  height: 100%;
+}
+
+.popup {
+  position: absolute;
+  width: 3400px;
+  height: 1600px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 99;
+  display: flex;
+  background-color: #fff;
+}
+.popup .site,
+.popup .smap {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.popup .site .iframe,
+.popup .smap .iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.btnPopupClose {
+  position: absolute;
+  right: -120px;
+  bottom: 0;
+  background: none;
+  border: none;
+}
+.btnPopupClose span {
+  font-size: 64px;
+  color: #fff;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mCSB_container {
+  height: 100%;
+}

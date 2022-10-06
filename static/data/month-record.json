@@ -1,0 +1,55 @@
+{
+  "imageFolder": "images/symbol/",
+  "yearList": [
+    {
+      "year": 1950,
+      "items": [
+        { "year": "1950. 09. 28", "img": "01.png", "title": "서울 수복", "gapx": 0, "gapy": 0, "json": "01.json" },
+        { "year": "1950. 10. 01", "img": "02.png", "title": "국군의 날 기념행사", "gapx": 0, "gapy": 3, "json": "02.json" }
+      ]
+    },
+    {
+      "year": 1960,
+      "items": [
+        { "year": "1960. 10. 12", "img": "03.png", "title": "효창 운동장 개장", "gapx": 0, "gapy": 0, "json": "03.json" },
+        { "year": "1967. 11. 17", "img": "04.png", "title": "세운상가 AB지구 준공", "gapx": 7, "gapy": 3, "json": "04.json" }
+      ]
+    },
+    {
+      "year": 1970,
+      "items": [
+        { "year": "1973. 11. 08", "img": "05.png", "title": "영동대교 개통", "gapx": 3, "gapy": 0, "json": "05.json" },
+        { "year": "1975. 09. 01", "img": "06.png", "title": "여의도 국회의사당 준공", "gapx": 5, "gapy": 3, "json": "06.json" }
+      ]
+    },
+    {
+      "year": 1980,
+      "items": [
+        { "year": "1984. 09. 29", "img": "07.png", "title": "88올림픽 주경기장 개장", "gapx": 2, "gapy": 0, "json": "01.json" },
+        { "year": "1984. 11. 14", "img": "08.png", "title": "동작대교 준공", "gapx": 2, "gapy": 3, "json": "01.json" },
+        { "year": "1985. 10. 18", "img": "09.png", "title": "서울지하철 3,4호선 전구간 개통", "gapx": 5, "gapy": 2, "json": "01.json" },
+        { "year": "1986. 09. 20", "img": "10.png", "title": "86 서울 아시아 경기대회 개막", "gapx": 6, "gapy": 4, "json": "01.json" },
+        { "year": "1988. 09. 17", "img": "11.png", "title": "88 서울올림픽 개막", "gapx": 8, "gapy": 0, "json": "01.json" },
+        { "year": "1989. 11. 15", "img": "12.png", "title": "올림픽대교 개통식", "gapx": 9, "gapy": 3, "json": "01.json" }
+      ]
+    },
+    {
+      "year": 1990,
+      "items": []
+    },
+    {
+      "year": 2000,
+      "items": [
+        { "year": "2001. 10. 30", "img": "13.png", "title": "세계최고 202m 월드컵 분수대 가동", "gapx": 1, "gapy": 0, "json": "01.json" },
+        { "year": "2005. 10. 01", "img": "14.png", "title": "청계천 복원공사 완공", "gapx": 4, "gapy": 3, "json": "01.json" },
+        { "year": "2007. 09. 12", "img": "15.png", "title": "다산콜센터 서비스 개시", "gapx": 7, "gapy": 0, "json": "01.json" },
+        { "year": "2007. 10. 20", "img": "16.png", "title": "서울세계디자인 수도(WDC) 선정", "gapx": 7, "gapy": 3, "json": "01.json" },
+        { "year": "2008. 10. 10", "img": "17.png", "title": "서울디자인올림픽 개최", "gapx": 8, "gapy": 4, "json": "01.json" }
+      ]
+    },
+    {
+      "year": 2010,
+      "items": [{ "year": "2012. 10. 13", "img": "18.png", "title": "신청사 개청", "gapx": 2, "gapy": 0, "json": "01.json" }]
+    }
+  ]
+}
